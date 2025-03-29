@@ -1,0 +1,10 @@
+./src/components/README.md:TODO TODO
+./src/utils/README.md:TODO TODO
+./src/README.md:TODO TODO
+./tests/README.md:TODO TODO
+./README.md:TODO TODO
+./docs/specification/README.md:TODO TODO
+./docs/README.md:TODO TODO
+
+grep -r "TODO" --include="*.md" . > todos.txt
+
